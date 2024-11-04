@@ -8,7 +8,7 @@ class Pirate:
 
     def __init__(self, model):
         self.model = model
-        self.tokenizer = AutoTokenizer.from_pretrained("C:/Users/Eddy Ejembi/Documents/MODELS/llama3.2-1B/TOKENIZER")
+        self.tokenizer = AutoTokenizer.from_pretrained("<PATH-TO-TOKENIZER>")
         
         # Set the device (GPU or CPU)
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

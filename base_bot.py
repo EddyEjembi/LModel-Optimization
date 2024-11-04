@@ -2,7 +2,7 @@ from transformers import AutoModelForCausalLM
 from chatbot import Pirate
 
 # Load Model
-model = AutoModelForCausalLM.from_pretrained("C:/Users/Eddy Ejembi/Documents/MODELS/llama3.2-1B/MODEL")
+model = AutoModelForCausalLM.from_pretrained("<PATH-TO-MODEL>")
 
 # Initialize the Pirate Class
 pirate = Pirate(model)

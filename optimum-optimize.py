@@ -1,7 +1,7 @@
 from optimum.onnxruntime import ORTModelForCausalLM, ORTOptimizer, ORTQuantizer, AutoOptimizationConfig
 from optimum.onnxruntime.configuration import AutoQuantizationConfig
 
-model_name = "C:/Users/Eddy Ejembi/Documents/MODELS/llama3.2-1B/MODEL"  # Replace with your actual model path/name
+model_name = "<PATH-TO-MODEL>"  # Replace with your actual model path or use the Huggingface model_id
 
 onnx_model_path = "onnx_model" # Directory for ONNX Model
 optimized_onnx_model_path = "optimized_onnx_model"  # Directory for Optimized ONNX model
