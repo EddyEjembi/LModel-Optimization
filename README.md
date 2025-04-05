@@ -33,7 +33,7 @@ LModel-Optimization/
 └── requirements
 ```
 
-## Experinmenting
+## 🧪 Experimenting
 ### 📦 Installation
 ```
 git clone https://github.com/EddyEjembi/LModel-Optimization.git
